@@ -1,0 +1,260 @@
+.img{
+    height: 100%;
+    width: 100%;
+}
+
+.cc{    
+    background-image: url("img/magical_tree_fantasy_art-wallpaper-1366x768.jpg");
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 500px; */
+}
+
+.ll{
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    width: 500px;
+    left: 60px;
+    font-size: 5rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.ll1{
+    position: absolute;
+    z-index: 1;
+    top: 380px;
+    left: 60px;
+    right: auto;
+    bottom: 1000px;
+    width: 500px;
+    color: black;
+    font-weight: 900;
+    font-size: 1rem;    
+}
+
+.iimg{
+    filter: opacity(80%);
+    background-repeat: no-repeat;
+    height: 650px;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.r{
+    margin: 40px 50px;
+    margin: 0%;
+    padding: 10px 50px;
+    margin-top: -25px;
+}
+
+p{
+    color: #fff;
+}
+
+.p1{
+    padding: 50px 10px 10px 0px; 
+    font-weight: 500;
+    font-size: larger;
+}
+
+.p2{
+    padding: 40px 10px 30px 0px; 
+    font-weight: 500;
+    font-size: large;
+}
+
+.img0{
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+}
+
+.img2{
+    margin-left: 100px;
+}
+
+.img3{
+    margin-left: 100px;
+}
+
+.div1{
+    margin-left: 100px;
+}
+
+.r1{
+    padding: 0px;
+}
+
+.row-col-1{
+    background-color: #2F86A6;
+    padding-left: 50px;
+}
+
+.row-col-2{
+    background-color: #7FDBDA;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.row-col-3{
+    background-color: #22577A;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.row-col-4{
+    background-color: #191A19;
+    padding-left: 50px;
+}
+
+
+.row-col-1:hover .img1{
+    animation: shake 0.3s;
+}
+
+.row-col-2:hover .img2{
+    animation: shake 0.3s;
+}
+
+.row-col-3:hover .img3{
+    animation: shake 0.3s;
+}
+
+.row-col-4:hover .img4{
+    animation: shake 0.3s;
+}
+
+/* .s{
+    width: 20px;
+    display: block;
+
+} */
+.s.animate{
+    transform: scale(2, 2);
+}
+
+.r3{
+    /* margin: 0px 500px; */
+    background-color: #3D0000;
+    display: flex;
+}
+
+.k1{
+    width: 25px;
+    margin-left: 500px;
+}
+.k2{
+    width: 25px;
+    margin-left: 40px;
+}
+.k3{
+    width: 25px;
+    margin-left: 40px;
+}
+.k4{
+    width: 25px;
+    margin-left: 40px;
+}
+
+.change{
+    transform: rotate(1deg);
+}
+.change1{
+    transform: rotate(-1deg);
+}
+
+
+/* .k:hover .s{
+    animation: big 0.1s forwards;
+} */
+
+.pp{
+    background-image: url("img/road_landscape_aesthetic_black_and_white-wallpaper-1366x768.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+}
+
+.pp1{
+    background-image: url("img/snake.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+}
+
+.pp2{
+    background-image: url("img/hitman_3-wallpaper-1366x768.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+}
+
+.pp-par{
+    z-index: 1;
+    font-size: 8rem;
+    font-weight: bolder;
+    color: #ffff;
+
+}
+
+/* .r2{
+    background-color: #E9C891;
+}
+
+.r3{
+    background-color: #E9C891;
+} */
+
+@keyframes big{
+    25%{
+        transform: scale(1.2, 1.2);
+        }
+    
+    50%{
+        transform: scale(1.5, 1.5);
+    }
+
+    75%{
+        transform: scale(1.7, 1.7);
+    }
+
+    100%{
+        transform: scale(2, 2);
+    }
+}
+    
+@keyframes shake {
+    25%{
+    transform: rotate(1deg);
+    }
+
+    50%{
+        transform: rotate(-1deg);
+    }
+
+    75%{
+        transform: rotate(1deg);
+    }
+
+    100%{
+        transform: rotate(-1deg);
+    }
+}
